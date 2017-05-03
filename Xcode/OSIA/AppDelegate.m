@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 #import "AppCoordinator.h"
-
+@import ContentSquare;
 @interface AppDelegate ()
 
 @property (nonatomic, strong) AppCoordinator *appCoordinator;
@@ -21,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    [[ContentSquare sharedInstance] startWithProjectId:@"ProjectId"];
     UINavigationController *n = [[UINavigationController alloc] init];
     AppCoordinator *c = [[AppCoordinator alloc] initWithNavigationController:n];
     [c start];

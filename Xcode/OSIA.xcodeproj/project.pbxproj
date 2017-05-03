@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A460DDF1EBA831800498E0B /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A460DDE1EBA831800498E0B /* ContentSquare.framework */; };
 		D62ED4AE1DDCBFB100D2CF42 /* ScreenshotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ED4AD1DDCBFB100D2CF42 /* ScreenshotsController.m */; };
 		D65589C31D42A3620033DD9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589C21D42A3620033DD9D /* main.m */; };
 		D65589C61D42A3620033DD9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589C51D42A3620033DD9D /* AppDelegate.m */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A460DDE1EBA831800498E0B /* ContentSquare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentSquare.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/ContentSquare-deppdejtrvsharddkawatltrtqys/Build/Products/Debug-iphonesimulator/ContentSquare.framework"; sourceTree = "<group>"; };
 		D62ED4AC1DDCBFB100D2CF42 /* ScreenshotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenshotsController.h; sourceTree = "<group>"; };
 		D62ED4AD1DDCBFB100D2CF42 /* ScreenshotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotsController.m; sourceTree = "<group>"; };
 		D65589BE1D42A3620033DD9D /* OSIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A460DDF1EBA831800498E0B /* ContentSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A460DDD1EBA831800498E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A460DDE1EBA831800498E0B /* ContentSquare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D65589B51D42A3620033DD9D = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +108,7 @@
 				D65589DA1D42A3620033DD9D /* OSIATests */,
 				D65589E51D42A3620033DD9D /* OSIAUITests */,
 				D65589BF1D42A3620033DD9D /* Products */,
+				4A460DDD1EBA831800498E0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,7 +234,7 @@
 		D65589B61D42A3620033DD9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = dkhamsing;
 				TargetAttributes = {
 					D65589BD1D42A3620033DD9D = {
@@ -356,8 +368,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -400,8 +414,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
