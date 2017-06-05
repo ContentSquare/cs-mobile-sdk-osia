@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40B2BABF1EE55F000011BD3F /* OSIAMonkeyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2BABE1EE55F000011BD3F /* OSIAMonkeyTest.swift */; };
+		40B2BAC51EE55F560011BD3F /* SwiftMonkey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B2BAC41EE55F560011BD3F /* SwiftMonkey.framework */; };
 		4A460DDF1EBA831800498E0B /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A460DDE1EBA831800498E0B /* ContentSquare.framework */; };
 		D62ED4AE1DDCBFB100D2CF42 /* ScreenshotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62ED4AD1DDCBFB100D2CF42 /* ScreenshotsController.m */; };
 		D65589C31D42A3620033DD9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589C21D42A3620033DD9D /* main.m */; };
@@ -14,7 +16,6 @@
 		D65589CE1D42A3620033DD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65589CD1D42A3620033DD9D /* Assets.xcassets */; };
 		D65589D11D42A3620033DD9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65589CF1D42A3620033DD9D /* LaunchScreen.storyboard */; };
 		D65589DC1D42A3620033DD9D /* OSIATests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589DB1D42A3620033DD9D /* OSIATests.m */; };
-		D65589E71D42A3620033DD9D /* OSIAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589E61D42A3620033DD9D /* OSIAUITests.m */; };
 		D65AC8461D42C857009A9AD4 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = D65AC8451D42C857009A9AD4 /* Data.m */; };
 		D65AC84C1D42DAC0009A9AD4 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65AC84B1D42DAC0009A9AD4 /* DataViewController.m */; };
 		D65AC84F1D466E55009A9AD4 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = D65AC84E1D466E55009A9AD4 /* Parser.m */; };
@@ -40,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40B2BABD1EE55EFF0011BD3F /* OSIAUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSIAUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		40B2BABE1EE55F000011BD3F /* OSIAMonkeyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSIAMonkeyTest.swift; sourceTree = "<group>"; };
+		40B2BAC41EE55F560011BD3F /* SwiftMonkey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMonkey.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/ContentSquare-hkbrarmhypzktudczojwgglhnejs/Build/Products/Debug-iphonesimulator/SwiftMonkey.framework"; sourceTree = "<group>"; };
 		4A460DDE1EBA831800498E0B /* ContentSquare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentSquare.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/ContentSquare-deppdejtrvsharddkawatltrtqys/Build/Products/Debug-iphonesimulator/ContentSquare.framework"; sourceTree = "<group>"; };
 		D62ED4AC1DDCBFB100D2CF42 /* ScreenshotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenshotsController.h; sourceTree = "<group>"; };
 		D62ED4AD1DDCBFB100D2CF42 /* ScreenshotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotsController.m; sourceTree = "<group>"; };
@@ -54,7 +58,6 @@
 		D65589DB1D42A3620033DD9D /* OSIATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSIATests.m; sourceTree = "<group>"; };
 		D65589DD1D42A3620033DD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D65589E21D42A3620033DD9D /* OSIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D65589E61D42A3620033DD9D /* OSIAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSIAUITests.m; sourceTree = "<group>"; };
 		D65589E81D42A3620033DD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D65AC8441D42C857009A9AD4 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		D65AC8451D42C857009A9AD4 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B2BAC51EE55F560011BD3F /* SwiftMonkey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +100,7 @@
 		4A460DDD1EBA831800498E0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40B2BAC41EE55F560011BD3F /* SwiftMonkey.framework */,
 				4A460DDE1EBA831800498E0B /* ContentSquare.framework */,
 			);
 			name = Frameworks;
@@ -166,8 +171,9 @@
 		D65589E51D42A3620033DD9D /* OSIAUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D65589E61D42A3620033DD9D /* OSIAUITests.m */,
 				D65589E81D42A3620033DD9D /* Info.plist */,
+				40B2BABD1EE55EFF0011BD3F /* OSIAUITests-Bridging-Header.h */,
+				40B2BABE1EE55F000011BD3F /* OSIAMonkeyTest.swift */,
 			);
 			path = OSIAUITests;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 					};
 					D65589E11D42A3620033DD9D = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = D65589BD1D42A3620033DD9D;
 					};
 				};
@@ -324,7 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65589E71D42A3620033DD9D /* OSIAUITests.m in Sources */,
+				40B2BABF1EE55F000011BD3F /* OSIAMonkeyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,10 +497,14 @@
 		D65589F21D42A3620033DD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OSIAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dkhamsing.osia.OSIAUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OSIAUITests/OSIAUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = OSIA;
 				USES_XCTRUNNER = YES;
 			};
@@ -502,10 +513,13 @@
 		D65589F31D42A3620033DD9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OSIAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dkhamsing.osia.OSIAUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OSIAUITests/OSIAUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = OSIA;
 				USES_XCTRUNNER = YES;
 			};
